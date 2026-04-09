@@ -5,6 +5,12 @@
 # data into basic components / compounds, before using it as seeds for new             #
 # algorithms.                                                                          #
 ########################################################################################
+def prime_rooms(first_prime, second_prime)
+  multiplicative = first_prime * second_prime
+
+  "If room is number #{multiplicative} this can warp to rooms #{first_prime} and #{second_prime}."
+end
+
 def ahucakabu(b1, b2, b3, b4,
               c1, c2, c3, c4,
               d1, d2, d3, d4,
